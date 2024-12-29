@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#page{
+    
+    width: 400px;
+    border-radius: 30px;
+    padding: 30px;
+    background-color: rgb(44, 144, 225);
+    
+
+}
+#slide{
+   
+    width: 100%;
+    height: 20px;
+    border-radius: 50px;
+    background-color: antiquewhite;
+    z-index: 3;
+}
+#grow{
+    
+    height: 100%;
+    width: 0%;
+    background-color: greenyellow;
+    border-radius: 50px;
+    z-index: -2;   
+}
+#process{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+button{
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: greenyellow;
+}
+button:active{
+    scale: 0.9;
+}
